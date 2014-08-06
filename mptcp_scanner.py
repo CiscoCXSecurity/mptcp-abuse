@@ -1,12 +1,12 @@
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 
-from .scapy.all import *
-from .scapy.layers.inet import TCP, IP, Neighbor
-from .scapy.layers import mptcp
-from .scapy.sendrecv import sr1 
+from scapy.all import *
+from scapy.layers.inet import TCP, IP, Neighbor
+from scapy.layers import mptcp
+from scapy.sendrecv import sr1 
 import random
-from .scapy.all import sr1
+from scapy.all import sr1
 from netaddr import *
 import netaddr
 
